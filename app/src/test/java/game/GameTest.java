@@ -9,6 +9,6 @@ public class GameTest {
   @Test
   public void testGetsWordToGuess(){
     Game game = new Game("MAKERS");
-    assertEquals(game.getWordToGuess(), "M____");
+    assertEquals(game.getWordToGuess(), "M_____");
   }
 }
