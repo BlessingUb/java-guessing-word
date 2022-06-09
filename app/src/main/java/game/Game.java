@@ -2,8 +2,11 @@ package game;
 
 public class Game {
 
-  public String getWordToGuess() {
-    return "B____";
+  public Game(String word) {
+	}
+
+	public String getWordToGuess() {
+    return "M____";
   }
 
 }
