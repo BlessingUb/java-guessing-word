@@ -2,8 +2,13 @@ package game;
 
 public class Game {
 
-
 	String word;
+  int initialRemainingAttempts = 10;
+
+
+  public int getInitialRemainingAttempts() {
+    return initialRemainingAttempts;
+  }
 
 
   public Game(String string) {
@@ -24,5 +29,8 @@ public class Game {
 
     return sb.toString();
   }
+
+
+
 
 }
