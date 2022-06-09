@@ -3,11 +3,11 @@ package game;
 public class Game {
 
 	String word;
-  int initialRemainingAttempts = 10;
+  Integer remainingAttempts = 10;
 
 
-  public int getInitialRemainingAttempts() {
-    return initialRemainingAttempts;
+  public Integer getRemainingAttempts() {
+    return remainingAttempts;
   }
 
 

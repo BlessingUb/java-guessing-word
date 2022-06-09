@@ -1,6 +1,6 @@
 package game;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -15,6 +15,7 @@ public class GameTest {
   @Test
   public void testGetsRemainingInitialAttempts(){
     Game game = new Game("MAKERS");
-    assertEquals(game.getInitialRemainingAttempts(), 10);
+    assertEquals(game.getRemainingAttempts(), Integer.valueOf(10));
+    
   }
 }
